@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "models": {
+    "meta-llama-3.1-70b-instruct": {
+      "mode": "chat",
+      "context_window": {
+        "max_input": 8192,
+        "max_output": 8192,
+        "max_tokens": 8192
+      },
+      "pricing": {
+        "input_per_million_tokens": 0.6,
+        "output_per_million_tokens": 0.6
+      },
+      "capabilities": {
+        "function_calling": true,
+        "vision": false,
+        "reasoning": false,
+        "prompt_caching": false,
+        "response_schema": true
+      },
+      "last_updated_at": "2026-04-24"
+    },
+    "meta-llama-3.1-8b-instruct": {
+      "mode": "chat",
+      "context_window": {
+        "max_input": 8192,
+        "max_output": 8192,
+        "max_tokens": 8192
+      },
+      "pricing": {
+        "input_per_million_tokens": 0.1,
+        "output_per_million_tokens": 0.1
+      },
+      "capabilities": {
+        "function_calling": true,
+        "vision": false,
+        "reasoning": false,
+        "prompt_caching": false,
+        "response_schema": true
+      },
+      "last_updated_at": "2026-04-24"
+    },
+    "zai-org/GLM-5.3": {
+      "mode": "chat",
+      "context_window": {
+        "max_input": 1048576,
+        "max_output": 1048576,
+        "max_tokens": 1048576
+      },
+      "pricing": {
+        "input_per_million_tokens": 1.26,
+        "output_per_million_tokens": 3.96,
+        "cache_read_per_million_tokens": 0.234
+      },
+      "capabilities": {
+        "function_calling": true,
+        "vision": false,
+        "reasoning": true,
+        "prompt_caching": true,
+        "response_schema": true
+      },
+      "last_updated_at": "2026-09-02"
+    },
+    "zai-org/GLM-5.3-Flash": {
+      "mode": "chat",
+      "context_window": {
+        "max_input": 1048576,
+        "max_output": 1048576,
+        "max_tokens": 1048576
+      },
+      "pricing": {
+        "input_per_million_tokens": 0.15,
+        "output_per_million_tokens": 0.5,
+        "cache_read_per_million_tokens": 0.03
+      },
+      "capabilities": {
+        "function_calling": true,
+        "vision": true,
+        "reasoning": true,
+        "prompt_caching": true,
+        "response_schema": true
+      },
+      "last_updated_at": "2026-09-02"
+    }
+  }
+}
